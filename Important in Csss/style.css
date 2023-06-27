@@ -1,0 +1,9 @@
+#firstdiv {
+    border: 2px solid black !important;
+    /* But if we write !important then the second statement  won't be overriding this */
+}
+
+#firstdiv {
+    border: 2px solid red;
+    /* this will override the previous style */
+}

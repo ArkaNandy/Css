@@ -1,0 +1,25 @@
+#parent {
+    /*  As we can see here we are playing it on the basis of relativity */
+
+    border: 10px solid red;
+    height: 50vw;
+    width: 50vw;
+
+    font-size: 50px;
+
+
+
+}
+
+#child {
+    border: 20px solid black;
+    width: 50%;
+    height: 35%;
+
+
+    font-size: 0.5em;
+
+
+
+
+}

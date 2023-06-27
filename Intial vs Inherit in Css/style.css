@@ -1,0 +1,21 @@
+#green {
+    color: rgb(4, 175, 118);
+
+}
+
+#blue {
+    color: red;
+
+}
+
+#initial {
+    color: initial;
+
+    /* When we set color to initial it means the by default color of the link, which is blue */
+}
+
+#inherit {
+    color: inherit;
+
+    /* When we set something to inherit it means it's going have the same color as of the div or as of the parent, which is the div green */
+}

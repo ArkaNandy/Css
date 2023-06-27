@@ -1,0 +1,32 @@
+p::first-letter {
+    /* here with the help of pseudo element we are styling the first letter in the paragrapgh*/
+    font-size: 35px;
+    color: brown;
+
+}
+
+p::first-line {
+    /* This will highlight the first line
+     */
+    font-size: 25px;
+    color: rgb(4, 200, 230);
+}
+
+h1::before {
+    /* We trying to insert something before the h1 tag */
+
+    content: url(png-transparent-arrow-arrow-angle-triangle-black-thumbnail.png);
+
+
+}
+
+h1::after {
+    /* When we want to add something after the h1 tag */
+    content: "Added after";
+}
+
+::selection {
+    /* In this one if we select an amount of text or highlight an amount of text, we can customize what colour it woiuld look like  */
+    color: red;
+    background: yellowgreen;
+}

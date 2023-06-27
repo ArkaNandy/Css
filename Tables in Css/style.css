@@ -1,0 +1,42 @@
+#FirstTablecaption {
+    border: 2px solid greenyellow;
+    border-collapse: collapse;
+    height: 30px;
+    color: black;
+    font-size: larger;
+    text-shadow: 20px;
+}
+
+
+#firsttable {
+    border: 1px solid black;
+    border-collapse: separate;
+    border-spacing: 20px;
+
+
+}
+
+#tr {
+    border: 1px solid rgb(65, 11, 11);
+
+
+}
+
+
+/* We are styling the table header */
+
+th {
+    border: 1px solid red;
+    height: 25px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+td {
+    border: 1px solid purple;
+    height: 35px;
+    padding: 5px;
+    text-align: right;
+
+}

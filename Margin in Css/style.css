@@ -1,0 +1,25 @@
+body {
+    border: 7px dotted black;
+}
+
+.div1 {
+    border: 1px solid royalblue;
+    padding: 20px 10px 20px 10px;
+}
+
+#marg {
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+
+#marg2 {
+    width: 30%;
+    margin: 20px auto;
+    /* For top and bottom it's 20 pixels and left and right is self adjusted */
+
+}

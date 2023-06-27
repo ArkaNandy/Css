@@ -1,0 +1,27 @@
+/* This is to show how 3 diffrent images which has been combined into a single picture beiung used diffrently */
+/* Using image sprites will reduce the number of server requests and save bandwidth. -->
+ */
+#sprite1 {
+    /* This is going to show the first image */
+    height: 685px;
+    background-image: url('Blank\ 3\ Grids\ Collage.jpg');
+    background-repeat: no-repeat;
+
+}
+
+#sprite2 {
+    /* this is going to show the 2nd image */
+    height: 685px;
+    background-image: url('Blank\ 3\ Grids\ Collage.jpg');
+    background-repeat: no repeat;
+    background-position: 0, -143px;
+}
+
+#sprite3 {
+    /* THis will show the 3rd image */
+
+    height: 685px;
+    background-image: url('Blank\ 3\ Grids\ Collage.jpg');
+    background-repeat: no repeat;
+    background-position: 0, -600px;
+}

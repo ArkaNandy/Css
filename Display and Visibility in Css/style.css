@@ -1,0 +1,52 @@
+/* So what is display property? 
+In html any element is like a rectangular box, if we give border to that element it is like a rectangular box
+But how the rectangular box is going to behave it will be decided, by the display property
+ Every element has it's own somekind of property*/
+
+/* Every element is occupying a display property */
+/* Display property has got 4 important values */
+/* 1) Block -- Takes the whole width of the page example div tag, p tag, h1 tag
+ 2)Inline -- Takes width as per requirement example a tag, img tag, span tag
+ 3)Inline Block --- Inline block is required because, suppose we want inline property but the take height and width
+ no full width and  
+ 4) None*/
+
+.blockproperty {
+    border: 2px solid goldenrod;
+    /* By default block takes full width */
+    /* Height and width both can be customized, applied */
+    /* It will Start feom new line*/
+    width: 50%;
+    height: 100px;
+}
+
+.inline {
+    border: 3px solid salmon;
+    /* Height and width cannot be applied or customized */
+    /* It won't start from a new line */
+    /* Won't take full width by default */
+    display: inline;
+    /* Display in line means all the div will be diplayed in one single line
+     They are no more block elements, they get dispalyed in one single line*/
+}
+
+.inlineblock {
+    /* It won't start from a new line */
+    /* Won't take full width by default 
+    /* Height and width both can be customized, applied */
+    /* So the best case scenario is to use inline block */
+
+
+    border: 5px solid black;
+    display: inline-block;
+
+
+}
+
+.noneblock {
+    border: 2px solid goldenrod;
+    width: 50%;
+    height: 100px;
+    visibility: hidden;
+    /* when visibility is hidden it occupies space */
+}

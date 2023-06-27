@@ -1,0 +1,28 @@
+body {
+    border: 1px solid rebeccapurple;
+    height: 800px;
+}
+
+#div1 {
+    /* we need to have a proper height and width*/
+    background-color: blueviolet;
+    border-radius: 10px;
+    height: 50%;
+    width: 70%;
+
+    max-width: 750px;
+    /* max space it can take upto is this much */
+    max-height: 300px;
+
+}
+
+#div2 {
+    /* we need to have a proper height and width*/
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 70%;
+
+    min-height: 50%;
+    /* the height will take up min 50 percentage of the total division   */
+
+}

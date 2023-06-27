@@ -1,0 +1,30 @@
+#scrollable {
+    height: 200px;
+    overflow: scroll;
+    background-color: aquamarine;
+    border: 2px solid rebeccapurple;
+    color: blue;
+
+
+
+}
+
+#firsttextarea {
+    /* by mentioning the text area none the user of the webpage won't be able to resize the text area according to his or her usage */
+
+    resize: none;
+    margin-bottom: 5px;
+
+}
+
+#secondscrollable {
+    background-color: whitesmoke;
+    border: 2px solid brown;
+    width: 300px;
+    height: 300px;
+    overflow: auto;
+    resize: both;
+    /* resize: horizontal;  here the resizing will only be horizontal */
+    /* resize: vertical; here the resizing will only be vertical  */
+
+}

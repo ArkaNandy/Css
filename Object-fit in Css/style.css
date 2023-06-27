@@ -1,0 +1,36 @@
+#leaningtowerimg {
+    border: 1px solid red;
+    width: 500px;
+    height: 400px;
+
+    /* Here we will see the image displayed will have a bad ratio */
+
+
+}
+
+#leaningtowerimgsecond {
+    border: 1px solid red;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top right;
+
+
+    /* to put the image in the middle of the page */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+#leaningtowerimgthird {
+    border: 1px solid gold;
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    object-position: top center;
+    /* object position means positioning the object in that particular div */
+    /* Whether it will be in right or left or in the middle in that particular div */
+
+}

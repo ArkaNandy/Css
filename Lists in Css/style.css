@@ -1,0 +1,28 @@
+#firstunorderdlist {
+    list-style-type: square;
+    /* The bulletin points getting styled like square */
+
+
+}
+
+#firstorderedlist {
+    list-style-type: georgian;
+    /* list-style: lower-roman; */
+    /* list-style-type: decimal-leading-zero; */
+
+}
+
+#secondorderdlist {
+    /* Supposedly we wanna style the bulletin through an image */
+
+    list-style-image: url(deer-3275594__480.png);
+
+}
+
+
+
+/*Now we are styling the list  */
+list {
+    border: 1px solid black;
+
+}

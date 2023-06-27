@@ -1,0 +1,19 @@
+#firstdiv {
+    border: 1px solid rebeccapurple;
+    cursor: all-scroll;
+    /* if we want to change our cursor style when we hover over that particular piece of text we mention the cursor */
+
+
+}
+
+#secondiv {
+    text-align: center;
+    border: 2px solid black;
+    cursor: crosshair;
+}
+
+#thirdiv {
+    text-align: right;
+    border: 5px dotted royalblue;
+    cursor: e-resize;
+}

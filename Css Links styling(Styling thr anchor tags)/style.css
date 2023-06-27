@@ -1,0 +1,34 @@
+/* We are styling the anchor tag, or the link in the web page */
+a {
+    text-decoration: none;
+    /* this would remove the underline under the text link */
+}
+
+
+/* now links in html are in 4 stages
+1) Normal stage(Only the link will be showing
+2) Visited stage(Already visited link)
+3) Hover stage(the link colour when you are hovering the mouse over it 
+4) active stage (When you click on the link*/
+
+a:link {
+    color: yellowgreen;
+
+    /* the normal link will be shown as yellowgreen */
+}
+
+a:visited {
+
+    color: black;
+    /* Once we visit the link it is going to show black, ie the link has once been visited after the opening of the page */
+}
+
+a:hover {
+    color: brown;
+    /* when we are taking our mouse over it the color it is going to show */
+}
+
+a:active {
+    color: red;
+    /* when we are clicking the link it is showing  */
+}

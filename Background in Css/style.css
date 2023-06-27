@@ -1,0 +1,26 @@
+#backgroundColor {
+    background-color: pink;
+}
+
+#backgroundimage {
+    background-image: url('GOKU\ wallpaper\ by\ NicoPiazzo\ -\ 14\ -\ Free\ on\ ZEDGE™\ \(2\).jpg');
+    background-repeat: no-repeat;
+    /* the image in the background doesn't repeat*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#backgroundStyles {
+    background-image: url(6b66e640d4728538d5cea45dc6f1c4e4.jpg), url(pen-painting-6-shilpi-singh.jpg);
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+
+    background-position: left top, right bottom;
+    background-size: 20%, 20%;
+}
+
+/*body {
+    background-color: blueviolet;
+}
+*/

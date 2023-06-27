@@ -1,0 +1,138 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* CSS Variables */
+:root {
+    --navbar-height: 59px;
+
+
+}
+
+/* NAvigation bar */
+#navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 6.4;
+}
+
+/*NAvigation bar: Logo and Image */
+#logo {
+    margin: 10px 34px;
+}
+
+#logoImage {
+    height: 122px;
+    margin: 7px 2px;
+    border-radius: 10px;
+
+}
+
+/* NAvigation bar: List Styling */
+#navbar {
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+
+
+#navbar ul li {
+    color: whitesmoke;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+#navbar ul li a {
+    color: whitesmoke;
+
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: antiquewhite;
+
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(FUNDO_FOOD-1024x341.png) center center/cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+
+#home h1 {
+    color: white;
+    text-emphasis: none;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'PT Serif', serif;
+
+}
+
+/* Utility Classes */
+#Primary {
+    font-size: 3.8rem;
+    padding: 12px;
+
+}
+
+.btnordernow {
+    padding: 6px 20px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(152, 245, 13);
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+
+
+
+}

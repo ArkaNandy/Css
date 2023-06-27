@@ -1,0 +1,21 @@
+#firstdiv {
+    border: 2px solid black;
+    width: auto;
+    background-color: aquamarine;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 3px black;
+    /* this is how we add shadow to the div or the box */
+
+
+}
+
+#secondiv {
+    border: 5px dotted rebeccapurple;
+    width: auto;
+    background-color: bisque;
+    margin: 30px;
+    padding: 20px 30px 20px 30px;
+    box-shadow: 10px 10px 5px 3px rgb(242, 101, 125) inset;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+p {
+    color: burlywood;
+    font-size: large;
+}
+
+#p3 {
+    color: blue;
+    font-size: medium;
+
+}
+
+.greentext {
+    color: darkgreen;
+}
+
+#headerfontsize {
+    font-size: 50px;
+
+}
+
+.underHeader {
+    text-decoration: underline;
+}

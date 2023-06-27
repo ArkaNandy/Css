@@ -1,0 +1,38 @@
+#borderinfirstdiv {
+    border-style: dashed dotted none solid;
+    border-color: blueviolet red chocolate;
+    /* we can have three different colors */
+    border-width: 5px 10px 2px 3px;
+    /* we can have 4 different width option */
+}
+
+#borderin2nddiv {
+    border-style: dashed;
+    border-color: black;
+    border-width: 5px 10px 2px 3px;
+
+}
+
+#borderin3rddiv {
+    border-style: outset;
+    border-color: brown;
+    border-width: 5px 10px 2px 3px;
+    border-radius: 10px 20px 10px;
+
+
+}
+
+#borderin4rddiv {
+    border-style: inset;
+    border-width: 5px 10px 2px 3px;
+    border-radius: 10px;
+    border-color: blanchedalmond;
+}
+
+#borderin5rddiv {
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: brown;
+    border-radius: 20px;
+
+}

@@ -1,0 +1,31 @@
+#image1 {
+    filter: blur(10px);
+    margin-bottom: 10%;
+    /* filter: brightness(70%); */
+    /* filter: contrast(70%); */
+    /* filter: drop-shadow(8px 8px 5px) */
+}
+
+#image2 {
+    filter: brightness(50%);
+    margin-bottom: 10%;
+
+}
+
+#image3 {
+    filter: grayscale(80%);
+    margin-bottom: 10%;
+
+}
+
+#image4 {
+    filter: hue-rotate(90deg);
+}
+
+#image5 {
+    filter: opacity(30%)
+}
+
+#image6 {
+    filter: saturate(30%), brightness(100%), blur(40%);
+}

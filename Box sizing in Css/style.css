@@ -1,0 +1,28 @@
+#div1 {
+    background-color: blueviolet;
+    height: 150px;
+    width: 600px;
+
+}
+
+#div2 {
+    background-color: aquamarine;
+    height: 150px;
+    width: 600px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: content-box;
+    /* Box sizing content box means whatever height or width we have given it is for the content not the container */
+
+}
+
+#div3 {
+    background-color: aquamarine;
+    height: 150px;
+    width: 600px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+
+
+}

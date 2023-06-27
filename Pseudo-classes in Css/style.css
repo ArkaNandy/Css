@@ -1,0 +1,24 @@
+li:last-child {
+    color: blue;
+}
+
+li:first-child {
+    color: rgb(158, 41, 60);
+}
+
+li:nth-child(4) {
+    color: blueviolet;
+    /* We can mention which one we want  */
+}
+
+li:nth-last-child(2) {
+    color: rgb(40, 151, 151);
+    /* The 2nd from the last will get hilighted */
+
+}
+
+input:focus-visible {
+    border: 5px sandybrown;
+    /* Whenever we will click on the box it will give focus and change the colour */
+
+}
