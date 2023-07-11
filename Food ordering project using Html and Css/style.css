@@ -16,6 +16,7 @@
 #navbar {
     display: flex;
     align-items: center;
+    position: relative;
 
 }
 
@@ -42,9 +43,7 @@
 }
 
 /* NAvigation bar: List Styling */
-#navbar {
-    position: relative;
-}
+
 
 #navbar ul {
     display: flex;
@@ -75,6 +74,7 @@
     color: black;
     background-color: antiquewhite;
 
+
 }
 
 /* Home Section */
@@ -83,7 +83,7 @@
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 400px;
+    height: 578px;
     justify-content: center;
     align-items: center;
 }
@@ -94,6 +94,8 @@
     background-repeat: no-repeat;
     position: absolute;
     height: 100%;
+    top: 0px;
+    left: 0px;
     width: 100%;
     z-index: -1;
     opacity: 0.89;
@@ -116,10 +118,86 @@
 
 }
 
+
+/* Services Section */
+#services {
+    margin: 34px;
+    display: flex;
+}
+
+#sevices.box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: rgb(223, 219, 214);
+
+
+}
+
+#services.box img {
+    height: 160px;
+    margin: auto;
+    display: block;
+}
+
+#services.box p {
+    font-family: 'PT Serif', serif;
+
+
+
+}
+
+/* Clients Section */
+#client-section {
+    height: 344px;
+
+}
+
+#client-section ::before {
+    content: "";
+    position: absolute;
+    background: url();
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.client-item {
+    padding: 34px;
+}
+
+#clients img {
+    height: 124px;
+
+}
+
+
+
+
 /* Utility Classes */
-#Primary {
+.h-primary {
+    font-family: 'PT Serif', serif;
     font-size: 3.8rem;
     padding: 12px;
+
+}
+
+.h-seondary {
+    font-size: 2.3 rem;
+    padding: 12px;
+    font-family: 'PT Serif', serif;
+
+
 
 }
 
@@ -132,7 +210,9 @@
     border-radius: 10px;
     cursor: pointer;
 
+}
 
-
+.center {
+    text-align: center;
 
 }
